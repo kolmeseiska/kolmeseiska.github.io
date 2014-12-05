@@ -1,0 +1,10 @@
+<div class="container">
+    <ul class="nav navbar-nav centered">
+      {% for nav in site.navigation %}
+
+      <li class= {% if nav.url == page.url %} centered active {% else %} centered {% endif %}>
+          <a href= {{ nav.url }}>{{ nav.title  }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
