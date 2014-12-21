@@ -1,6 +1,15 @@
 navigation:
   - title: Etusivu
-    url: index.html
+    url: /index.html
 
-  - title: Liskolinnut
-    url: index.html
+  - title: Ilmoittautuminen
+    url: /register/index.html
+
+  - title: Hinnat
+    url: /index.html
+
+  - title: Ohjelma
+    url: /index.html
+
+  - title: Yhteystiedot
+    url: /index.html
