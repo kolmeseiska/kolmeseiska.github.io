@@ -6,7 +6,7 @@ navigation:
     url: /register/index.html
 
   - title: Hinnat
-    url: /index.html
+    url: /prices/index.html
 
   - title: Ohjelma
     url: /index.html
