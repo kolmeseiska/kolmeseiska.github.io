@@ -8,6 +8,27 @@ html {
   background-color: black;**/
 }
 
+h1 {
+  display: block;
+  margin: 20px auto;
+  font-size: 2em;
+  font-weight: bold;
+}
+h1 span {
+  font-size: 0.6em;
+  font-weight: normal;
+}
+p {
+  margin: 0.5em 0;
+  display: block;
+  width: 80%;
+}
+
+header {
+  display: block;
+  min-height: 20%;
+  text-align: center;
+}
 #main_logo {
   margin-left: 5%;
   margin-top: 2%;
@@ -27,5 +48,21 @@ html {
 .centered {
   float: none !important;
   margin: 0 auto !important;
+}
+
+nav ul {
+  width: 100%;
+  margin: auto;
+}
+
+nav li {
+  float: none !important;
+  margin: 0 auto;
   display: inline-block !important;
+}
+
+.todo {
+  font-weight: bold;
+  color: #840B0B;
+
 }
