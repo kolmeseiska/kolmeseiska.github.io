@@ -29,6 +29,52 @@ header {
   min-height: 20%;
   text-align: center;
 }
+
+table {
+  border-collapse: separate;
+}
+
+thead {
+  line-height: 2.5;
+  background-color: #82DAF7; 
+}
+
+thead th:first-child { 
+  -khtml-border-radius: 0.4em 0 0 0.4em;
+  -moz-border-radius: 0.4em 0 0 0.4em;
+  -ms-border-radius: 0.4em 0 0 0.4em;
+  -o-border-radius: 0.4em 0 0 0.4em;
+  -webkit-border-radius: 0.4em 0 0 0.4em;
+  border-radius: 0.4em 0 0 0.4em;
+}
+
+thead th:last-child {
+  -khtml-border-radius: 0 0.4em 0.4em 0;
+  -moz-border-radius: 0 0.4em 0.4em 0;
+  -ms-border-radius: 0 0.4em 0.4em 0;
+  -o-border-radius: 0 0.4em 0.4em 0;
+  -webkit-border-radius: 0 0.4em 0.4em 0;
+  border-radius: 0 0.4em 0.4em 0;
+}
+
+th {
+  border: 1px solid #78A1A4;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: lightgrey !important;
+}
+
+tbody tr:nth-child(even)  {
+  background-color: #ECF8FC;
+}
+
+td {
+  border: 1px solid #78A1A4;
+  text-align: inherit;
+}
+
 #main_logo {
   margin-left: 5%;
   margin-top: 2%;
@@ -65,4 +111,21 @@ nav li {
   font-weight: bold;
   color: #840B0B;
 
+}
+
+#cabinCatalog {
+  width: 80%;
+  margin: 1%;
+}
+
+#cabinCatalog tr td {
+  padding: 10px;
+}
+
+#cabinCatalog tr td:nth-child(odd) {
+  width: 20%
+}
+
+#cabinCatalog tr td:nth-child(even) {
+  width: 60%
 }
