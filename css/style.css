@@ -82,6 +82,12 @@ td {
 
 }
 
+#logo_block {
+  background: url(../images/TR15_banneri_1024.png) no-repeat top center;
+  min-height: 250px;
+  height: 20%;
+}
+
 #slogan {
   font-size: 3em;
   font-family: 'Droid Sans'; 
