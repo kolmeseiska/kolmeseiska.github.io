@@ -6,6 +6,12 @@ html {
   margin: 0 auto;
 }
 
+article {
+  clear: both;
+  display: block;
+  margin: 3% 0;
+}
+
 h1 {
   display: block;
   margin: 20px auto;
@@ -30,6 +36,8 @@ header {
 
 table {
   border-collapse: separate;
+  width: 80%;
+  margin: 1%;
 }
 
 thead {
@@ -71,6 +79,7 @@ tbody tr:nth-child(even)  {
 td {
   border: 1px solid #78A1A4;
   text-align: inherit;
+  padding: 10px;
 }
 
 #main_logo {
@@ -115,15 +124,6 @@ nav li {
   font-weight: bold;
   color: #840B0B;
 
-}
-
-#cabinCatalog {
-  width: 80%;
-  margin: 1%;
-}
-
-#cabinCatalog tr td {
-  padding: 10px;
 }
 
 #cabinCatalog tr td:nth-child(odd) {
