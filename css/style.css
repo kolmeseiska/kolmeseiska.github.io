@@ -95,6 +95,8 @@ td {
 
 .etusivu {
   border: 0px;
+    width: 100%;
+  margin: 0%;
 }
 
 #main_logo {
