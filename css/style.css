@@ -5,6 +5,7 @@ html {
   max-width: 1024px;
   margin: 0 auto;
   min-height: 400px;
+  padding-left: 100px;
 }
 
 article {
