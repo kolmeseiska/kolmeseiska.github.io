@@ -126,6 +126,11 @@ nav li {
 
 }
 
+.bold {
+  font-weight: bold;
+
+}
+
 #cabinCatalog tr td:nth-child(odd) {
   width: 20%
 }
