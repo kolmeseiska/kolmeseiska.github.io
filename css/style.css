@@ -6,6 +6,7 @@ html {
   margin: 0 auto;
   min-height: 400px;
   padding-left: 100px;
+  padding-right: 100px;
 }
 
 article {
