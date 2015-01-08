@@ -78,9 +78,10 @@ th {
   text-align: center;
 }
 
-tbody tr:hover {
+/*tbody tr:hover {
   background-color: lightgrey !important;
 }
+*/
 
 tbody tr:nth-child(even)  {
   background-color: #ECF8FC;
@@ -94,7 +95,6 @@ td {
 
 .etusivu {
   border: 0px;
-  border-collapse: none;
 }
 
 #main_logo {
