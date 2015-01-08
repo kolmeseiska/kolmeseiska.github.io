@@ -13,3 +13,12 @@ navigation:
 
   - title: Yhteystiedot
     url: /contact/index.html
+
+graphics:
+  - name: TR15_julistepohja
+    url: /graphics/TR15_juliste.png
+    description: Julistepohja, sisältää yleisen pohjan mutta ei tarkempia tietoja.
+
+  - name: Teekkariristeily_2015_Esimerkkijuliste
+    url: /graphics/TR15_juliste_esimerkki.png
+    description: Esimerkki mainosjulisteesta.
