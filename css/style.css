@@ -4,7 +4,8 @@ html {
 #main {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 article {
