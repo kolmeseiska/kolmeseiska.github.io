@@ -11,6 +11,9 @@ navigation:
   - title: Yhteystiedot
     url: /contact/index.html
 
+  - title: Matkaehdot
+    url: /terms/index.html
+
 graphics:
   - name: TR15_julistepohja
     url: /graphics/TR15_juliste.png
