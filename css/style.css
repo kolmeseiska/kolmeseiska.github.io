@@ -3,7 +3,8 @@ html {
 
 #main {
   max-width: 1024px;
-  margin: 100 100;
+  margin: 0;
+  padding-left: 100px;
 }
 
 article {
