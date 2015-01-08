@@ -28,6 +28,14 @@ p {
   width: 80%;
 }
 
+p-bold {
+  margin: 0.5em 0;
+  display: block;
+  width: 80%;
+  font-weight: bold;
+}
+
+
 header {
   display: block;
   min-height: 20%;
@@ -124,12 +132,6 @@ nav li {
   font-weight: bold;
   color: #840B0B;
 
-}
-
-.bold {
-  font-weight: bold;
-
-}
 
 #cabinCatalog tr td:nth-child(odd) {
   width: 20%
