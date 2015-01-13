@@ -3,9 +3,30 @@ layout: default
 title: Yhteystiedot
 ---
 
-<h1>Yhteystiedot</h1>
+<script language="JavaScript" type="text/javascript">
+  var name = "teekkariristeily";
+  var address = "gmail.com";
+  var link = name + "@" + address;
+  function protectmail() {
+  document.write('<a href=mailto:' + name + '@' + address +'>' + link + '</a>');
+  }
+</script>
 
-<p>
-  Tämän hassuttelun järjestää: 37 ry <br>
-  <img src="..//images/maili.png">
-</p>
+<section>
+  <article>
+    <hgroup>
+      <h1>Yhteystiedot</h1>
+    </hgroup>
+
+    <p>
+    Tämän hassuttelun järjestää: 37 ry yhteistyössä <a href="http://teekkarikomissio.utu.fi/fi/index.html">Teekkarikomissio ry:n </a>kanssa.
+    </p>
+    <p>
+    Matkaan liittyvissä kysymyksissä, hyttimuutoksissa, peruutuksissa ja muissa mieltä askarruttavissa asioissa järjestäjät tavoittaa sähköpostiosoitteesta <span>
+      <script language="JavaScript" type="text/javascript">
+        protectmail();
+      </script>
+    </span>.
+    </p>
+  </article>
+</section>
