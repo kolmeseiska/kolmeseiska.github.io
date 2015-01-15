@@ -2,14 +2,26 @@
 layout: default
 ---
 
-
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#countdown').flipcountdown({
+      showSecond:false,
+      beforeDateTime:'03/05/2015 20:15:00',
+      size:"sm"
+    });
+  });
+</script>
 
 <section>
   <article>
     <hgroup>
-      <h1>Teekkariristeily 2015 </br>
+      <h1 style="display:inline-block">Teekkariristeily 2015 </br>
         <span>Turusta Turkuun 5-6.3.2015 </span>
       </h1>
+      <div style="display:inline-block">
+        <div id="countdown" />
+        <span class="small"> Laivan lähtöön aikaa:</span>
+      </div>
     </hgroup>
     <table class="etusivu">
     <td class="etusivu" style="text-align: justify">
