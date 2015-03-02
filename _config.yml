@@ -14,6 +14,9 @@ navigation:
   - title: Matkaehdot
     url: /terms/index.html
 
+  - title: Matkustusohjeet
+    url: /info/index.html
+
 graphics:
   - name: TR15_julistepohja
     url: /graphics/TR15_juliste.png
