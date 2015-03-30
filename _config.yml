@@ -8,6 +8,9 @@ navigation:
   #- title: Ohjelma
    # url: /program/index.html
 
+  - title: Teekkariristeily?
+    url: /description.html
+
   - title: Yhteystiedot
     url: /contact/index.html
 
