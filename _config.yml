@@ -2,20 +2,20 @@ navigation:
   - title: Etusivu
     url: /index.html
 
-  - title: Ilmoittautuminen ja hinnat
-    url: /register/index.html
+#  - title: Ilmoittautuminen ja hinnat
+ #   url: /register/index.html
 
-  - title: Ohjelma
-    url: /program/index.html
+  #- title: Ohjelma
+   # url: /program/index.html
 
   - title: Yhteystiedot
     url: /contact/index.html
 
-  - title: Matkaehdot
-    url: /terms/index.html
+  #- title: Matkaehdot
+  #  url: /terms/index.html
 
-  - title: Matkustusohjeet
-    url: /info/index.html
+  #- title: Matkustusohjeet
+  #  url: /info/index.html
 
 graphics:
   - name: TR15_julistepohja
