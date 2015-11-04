@@ -9,6 +9,12 @@ layout: default
       beforeDateTime:'03/03/2016 20:15:00',
       size:"sm"
     });
+   
+    function initGallery() {
+      Galleria.loadTheme('js/galleria.classic.min.js');
+      Galleria.run("#gallery")
+    }
+    initGallery();
   });
 </script>
 
@@ -28,6 +34,16 @@ layout: default
     <span class="small"> Laivan lähtöön aikaa:</span>
   </div>-->
   <p> Teekkariristeily 2016 lähtee liikkeelle 3.3. ja risteilyn tarkemmat parametrit tarkentuvat lähipäivinä. Stay tuned.</p>
+
+  <h4 style="margin-top: 20px">2015 - bestest</h4>
+  <p> Kuumottaako? Vaivaako risteilykuume? Eikö se jumavitan Teekkariristeily 2016 voisi olla jo täällä? <br/>
+  Maaliskuu tulee vasta maaliskuussa, mutta risteilykuumeeseen pientä lohdutusta suo kertaus viime tsembaloiden parhaisiin paloihin. Eli alta löytyy pieni visuaalinen otos viime risteilyn annistaa! <br/>Nauttikaa.omalla.vastuulla:</p>
+
+  <div id="gallery" class="galleria">
+    {% directory path: images/gallery %}
+      <img src="{{file.url}}" alt="{{file.name}}"/>
+    {% enddirectory %}
+  </div>
  
 <!--    <hgroup>
       <h1 style="display:inline-block">Teekkariristeily 2015 </br>

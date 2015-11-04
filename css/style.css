@@ -175,3 +175,10 @@ nav li {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
 }
+
+.galleria {
+  width: 700px;
+  height: 400px;
+  background: #000;
+  margin-top: 3%;
+}
