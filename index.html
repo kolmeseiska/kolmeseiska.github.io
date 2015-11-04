@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<!--<style>
+  /* Prevents slides from flashing */
+  #gallery {
+    display:none;
+  }
+</style>-->
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -11,10 +17,16 @@ layout: default
       });
 
     function initGallery() {
-      Galleria.loadTheme('js/galleria.classic.min.js');
-      Galleria.run("#gallery")
+      //Galleria.loadTheme('js/galleria.classic.min.js');
+      //Galleria.run("#gallery")
+      //$("#gallery").slidesjs({});
+    $('#gallery').slick({
+      width: "700px",
+      height: "400px"
+      });
     }
     initGallery();
+
   });
 </script>
 
@@ -39,11 +51,11 @@ layout: default
   <p> Kuumottaako? Vaivaako risteilykuume? Eikö se jumavitan Teekkariristeily 2016 voisi olla jo täällä? <br/>
   Maaliskuu tulee vasta maaliskuussa, mutta risteilykuumeeseen pientä lohdutusta suo kertaus viime tsembaloiden parhaisiin paloihin. Eli alta löytyy pieni visuaalinen otos viime risteilyn annistaa! <br/>Nauttikaa.omalla.vastuulla:</p>
 
-  <div id="gallery" class="galleria">
-    <img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/>
-    <img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/>
-    <img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/>
-    <img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/>
+<!--  <div id="gallery">
+    <div><img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/></div>
     <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
     <img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg"/>
     <img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg"/>
@@ -56,7 +68,7 @@ layout: default
     <img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg"/>
     <img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg"/>
     <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>
-  </div>
+  </div>-->
  
 <!--    <hgroup>
       <h1 style="display:inline-block">Teekkariristeily 2015 </br>
@@ -81,4 +93,22 @@ layout: default
 </section>
 
 
-
+  <div id="gallery">
+    <div><img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/></div>
+    <div><img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/></div>
+   <!-- <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
+    <img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg"/>
+    <img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg"/>
+    <img src="/images/gallery/tristeily15_08.jpg" alt="tristeily15_08.jpg"/>
+    <img src="/images/gallery/tristeily15_09.jpg" alt="tristeily15_09.jpg"/>
+    <img src="/images/gallery/tristeily15_10.jpg" alt="tristeily15_10.jpg"/>
+    <img src="/images/gallery/tristeily15_11.jpg" alt="tristeily15_11.jpg"/>
+    <img src="/images/gallery/tristeily15_12.jpg" alt="tristeily15_12.jpg"/>
+    <img src="/images/gallery/tristeily15_13.jpg" alt="tristeily15_13.jpg"/>
+    <img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg"/>
+    <img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg"/>
+    <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>-->
+  </div>
+ 
