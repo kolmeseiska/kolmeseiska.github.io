@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-<!--<style>
-  /* Prevents slides from flashing */
-  #gallery {
-    display:none;
+<script>
+  .slick-prev:before, .slick-next:before{
+    color:red;
   }
-</style>-->
+</script>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -17,15 +16,12 @@ layout: default
       });
 
     function initGallery() {
-      //Galleria.loadTheme('js/galleria.classic.min.js');
-      //Galleria.run("#gallery")
-      //$("#gallery").slidesjs({});
-    $('#gallery').slick({
-      width: "700px",
-      height: "400px"
-      });
+      $('#gallery').slick({
+        dots: true,
+        prevArrow: "<div class='slick-prev slick-arrow'>Foobar</div>"
+        });
     }
-    initGallery();
+    //initGallery();
 
   });
 </script>
@@ -93,12 +89,10 @@ layout: default
 </section>
 
 
-  <div id="gallery">
-    <div><img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/></div>
-   <!-- <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
+  <div id="slider">
+    <img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/>    <img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/>    <img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/>
+    <img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/>
+    <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
     <img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg"/>
     <img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg"/>
     <img src="/images/gallery/tristeily15_08.jpg" alt="tristeily15_08.jpg"/>
@@ -109,6 +103,6 @@ layout: default
     <img src="/images/gallery/tristeily15_13.jpg" alt="tristeily15_13.jpg"/>
     <img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg"/>
     <img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg"/>
-    <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>-->
+    <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>
   </div>
  

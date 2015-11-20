@@ -182,3 +182,16 @@ nav li {
   background: #000;
   margin-top: 3%;
 }
+
+.gallery-image {
+  max-width: 500px !important;
+  height: 500px !important;
+ /** background-image: url('/images/gallery/tristeily15_01.jpg');**/
+  background-repeat: no-repeat;
+  background-size: contain;
+}  
+
+#slider {
+  width:960px;
+  height:420px !important;
+}
