@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<script>
-  .slick-prev:before, .slick-next:before{
-    color:red;
-  }
-</script>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -16,12 +11,13 @@ layout: default
       });
 
     function initGallery() {
-      $('#gallery').slick({
+      $('#slider').slick({
         dots: true,
-        prevArrow: "<div class='slick-prev slick-arrow'>Foobar</div>"
+        autoplay: true,
+        autoplaySpeed: 2000
         });
     }
-    //initGallery();
+    initGallery();
 
   });
 </script>
@@ -46,25 +42,6 @@ layout: default
   <h4 style="margin-top: 20px">2015 - bestest</h4>
   <p> Kuumottaako? Vaivaako risteilykuume? Eikö se jumavitan Teekkariristeily 2016 voisi olla jo täällä? <br/>
   Maaliskuu tulee vasta maaliskuussa, mutta risteilykuumeeseen pientä lohdutusta suo kertaus viime tsembaloiden parhaisiin paloihin. Eli alta löytyy pieni visuaalinen otos viime risteilyn annistaa! <br/>Nauttikaa.omalla.vastuulla:</p>
-
-<!--  <div id="gallery">
-    <div><img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/></div>
-    <div><img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/></div>
-    <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
-    <img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg"/>
-    <img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg"/>
-    <img src="/images/gallery/tristeily15_08.jpg" alt="tristeily15_08.jpg"/>
-    <img src="/images/gallery/tristeily15_09.jpg" alt="tristeily15_09.jpg"/>
-    <img src="/images/gallery/tristeily15_10.jpg" alt="tristeily15_10.jpg"/>
-    <img src="/images/gallery/tristeily15_11.jpg" alt="tristeily15_11.jpg"/>
-    <img src="/images/gallery/tristeily15_12.jpg" alt="tristeily15_12.jpg"/>
-    <img src="/images/gallery/tristeily15_13.jpg" alt="tristeily15_13.jpg"/>
-    <img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg"/>
-    <img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg"/>
-    <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>
-  </div>-->
  
 <!--    <hgroup>
       <h1 style="display:inline-block">Teekkariristeily 2015 </br>
@@ -75,7 +52,7 @@ layout: default
     <td class="etusivu" style="text-align: justify">
        <p>Teekkariristeily 2015, kaikkien teekkarien ja teekkarimielisten kansalaisten epävirallinen hupipurjehdus, seilataan ensimmäistä kertaa 5.3.2015! Juhlakansalla lastattu aluksemme M/S Baltic Princess nostaa ankkurinsa n. 20.15 Turun kuninkaallisesta satamasta.</p>
       <p>Teekkariristeily 2015 seilasi M/S Baltic Princessillä 5-6.3.2015. Risteilyn tunnelma oli jossain eeppisen yläpuolella, ja meno jatkui kuumana ja kosteana kellon ympäri. Kiitos siis mukana olleille!
-      </p>
+      
       <p> Ja vaikka tämän vuoden risteily on jo menneen talven lumia, niin ei hätää! Ensi vuonna on uudet kujeet, uudet tuulet ja Teekkariristeilu 2016!</p>
     <p>Risteilyllä on luvassa hersyvänhauskaa laivatunnelmaa, säkenöivää seuraa ja tietysti valtakunnan viriileimmät artistit juhlakansaa viihdyttämässä! Tarkemmat tiedot esiintyjistä ja laivaohjelmasta löytyvät Ohjelma-välilehden takaa. </p>
     <p> Kaupunkikohtaiset ilmoittautumisohjeet vapaapurjehdukseen löytyvät <a href="/register/index.html">täältä</a>, stay tuned! </p>
@@ -90,19 +67,21 @@ layout: default
 
 
   <div id="slider">
-    <img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg"/>    <img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg"/>    <img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg"/>
-    <img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg"/>
-    <img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg"/>
-    <img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg"/>
-    <img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg"/>
-    <img src="/images/gallery/tristeily15_08.jpg" alt="tristeily15_08.jpg"/>
-    <img src="/images/gallery/tristeily15_09.jpg" alt="tristeily15_09.jpg"/>
-    <img src="/images/gallery/tristeily15_10.jpg" alt="tristeily15_10.jpg"/>
-    <img src="/images/gallery/tristeily15_11.jpg" alt="tristeily15_11.jpg"/>
-    <img src="/images/gallery/tristeily15_12.jpg" alt="tristeily15_12.jpg"/>
-    <img src="/images/gallery/tristeily15_13.jpg" alt="tristeily15_13.jpg"/>
-    <img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg"/>
-    <img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg"/>
-    <img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg"/>
+    <div><img src="/images/gallery/tristeily15_01.jpg" alt="tristeily15_01.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_02.jpg" alt="tristeily15_02.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_03.jpg" alt="tristeily15_03.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_04.jpg" alt="tristeily15_04.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_05.jpg" alt="tristeily15_05.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_06.jpg" alt="tristeily15_06.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_07.jpg" alt="tristeily15_07.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_08.jpg" alt="tristeily15_08.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_09.jpg" alt="tristeily15_09.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_10.jpg" alt="tristeily15_10.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_11.jpg" alt="tristeily15_11.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_12.jpg" alt="tristeily15_12.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_13.jpg" alt="tristeily15_13.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_14.jpg" alt="tristeily15_14.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_15.jpg" alt="tristeily15_15.jpg" width="500" height="420"/></div>
+    <div><img src="/images/gallery/tristeily15_16.jpg" alt="tristeily15_16.jpg" width="500" height="420"/></div>
   </div>
  

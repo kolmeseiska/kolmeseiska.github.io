@@ -176,22 +176,8 @@ nav li {
   -ms-transform: translateY(-50%);
 }
 
-.galleria {
-  width: 700px;
-  height: 400px;
-  background: #000;
-  margin-top: 3%;
-}
-
-.gallery-image {
-  max-width: 500px !important;
-  height: 500px !important;
- /** background-image: url('/images/gallery/tristeily15_01.jpg');**/
-  background-repeat: no-repeat;
-  background-size: contain;
-}  
-
 #slider {
-  width:960px;
+  width:500px;
   height:420px !important;
+  margin-bottom: 5%;
 }
